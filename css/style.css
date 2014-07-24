@@ -1,0 +1,7 @@
+#content ul {
+    margin-bottom:10px;
+}
+
+footer ul {float:right;}
+
+footer ul li {display: inline-block;float:left;margin-right:20px;}
