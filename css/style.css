@@ -2,6 +2,12 @@
     margin-bottom:10px;
 }
 
+.items>div>div {border-right:1px solid #d8d8d8;}
+
+.items>div>div.last {border:none;}
+
+footer {margin-top:20px;}
+
 footer ul {float:right;}
 
 footer ul li {display: inline-block;float:left;margin-right:20px;}

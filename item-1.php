@@ -29,10 +29,10 @@
         <div class="large-4 columns right">
             <h3>Files</h3>
                 <ul  class="clearing-thumbs" data-clearing style="list-style:none">
-                  <li style="margin-bottom:10px"><a href="http://placehold.it/800x400"><img src="http://placehold.it/300x200&text=IMAGE"></a></li>
-                  <li style="margin-bottom:10px"><a href="http://placehold.it/800x400"><img src="http://placehold.it/300x200&text=IMAGE"></a></li>
-                  <li style="margin-bottom:10px"><a href="http://placehold.it/800x400"><img src="http://placehold.it/300x200&text=IMAGE"></a></li>
-                  <li style="margin-bottom:10px"><a href="http://placehold.it/800x400"><img src="http://placehold.it/300x200&text=IMAGE"></a></li>
+                  <li style="margin-bottom:10px"><a href="http://placehold.it/800x400&text=PHOTO"><img src="http://placehold.it/300x200&text=IMAGE"></a></li>
+                  <li style="margin-bottom:10px"><a href="http://placehold.it/800x100&text=AUDIO FILE"><img src="http://placehold.it/300x100&text=AUDIO FILE"></a></li>
+                  <li style="margin-bottom:10px"><a href="http://placehold.it/800x400&text=VIDEO"><img src="http://placehold.it/300x200&text=VIDEO"></a></li>
+                  
                 </ul>
         </div>
 
