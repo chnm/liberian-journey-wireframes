@@ -1,7 +1,7 @@
 <?php require('header.html'); ?>
 
 <div class="row">
-    <div class="large-12 columns">
+    <div id="share" class="large-12 columns">
         <h2>Place to Share Stories</h2>
         <form> 
             <div class="row">
@@ -38,7 +38,7 @@
                         <div class="large-10 columns"> 
                         <input type="text" id="right-label" placeholder="Inline Text Input"> 
                         </div>
-                    </div> 
+                    </div>your 
 
                     <div class="row"> 
                         <div class="large-2 columns"> 
@@ -54,5 +54,13 @@
         </form>
     </div>
 </div>
+
+<ol class="joyride-list" data-joyride>
+
+  <li data-id="share" data-options="tip_location:top;tip_animation:fade" data-button="End" >
+    <p>This page will simply contain a form by which users can tell their own stories, and possibly upload media files.</p>
+  </li>
+
+</ol>
 
 <?php require('footer.html'); ?>

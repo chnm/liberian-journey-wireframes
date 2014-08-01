@@ -6,17 +6,17 @@
     <p>Some text about exploring the stories. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam amet possimus porro, libero facere. </p>
 </div>
 
-<div class="large-3 column">
-    <a href="#" class="button right" data-dropdown="drop1">Filter Subjects</a>
+<div id="filter" class="large-3 column">
+    <a href="#" class="button right" data-dropdown="drop1">Filter Themes</a>
     <ul id="drop1" class="f-dropdown" data-dropdown-content>
-      <li><a href="#">Subject 1</a></li>
-      <li><a href="#">Subject 2</a></li>
-      <li><a href="#">Subject 3</a></li>
+      <li><a href="#">Theme 1</a></li>
+      <li><a href="#">Theme 2</a></li>
+      <li><a href="#">Theme 3</a></li>
     </ul>
 </div>
 </div>
 
-<div class="row items">
+<div id="gallery" class="row items">
     <div class="large-12 columns panel">
         <div class=" medium-4 columns ">
             <h5><a href="item-1.php">An Audio Story</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -75,5 +75,19 @@
         </div> 
     </div>
 </div>
+
+<ol class="joyride-list" data-joyride>
+
+  <li data-id="filter" data-options="tip_location:left;tip_animation:fade" data-text="Next" data-prev-text="Prev">
+    <h4>Filter</h4>
+    <p>Again, users can filter the items to show groups of stories that fall under a specific theme.</p>
+  </li>
+
+  <li data-id="gallery" data-options="tip_location:top;tip_animation:fade" data-text="Next" data-prev-text="Prev" data-button="End" >
+    <p>Both audio and text stories will have brief descriptions, with direct links to the items themselves.</p>
+  </li>
+
+</ol>
+
 
 <?php require('footer.html'); ?>

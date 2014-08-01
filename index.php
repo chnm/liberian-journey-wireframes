@@ -88,21 +88,21 @@
 
   <li data-id="header" data-options="tip_location:bottom;tip_animation:fade" data-text="Next" data-prev-text="Prev">
     <h4>Header</h4>
-    <p>The header will be simple with the title, possibly a logo, and the search bar, encouraging users to focus on the content portals.</p>
+    <p>The header will be simple, containing just the title, possibly a logo, and the search bar, encouraging users to focus on the content portals.</p>
   </li>
 
   <li data-id="nav" data-options="tip_location:bottom;tip_animation:fade" data-text="Next" data-prev-text="Prev">
     <h4>Navigation</h4>
-    <p>The main navigation reflects the primary portals to viewing the content: the map, photo and video galleries, and audio and text stories.</p>
+    <p>The main navigation directs users toward the primary portals to viewing the content: the map, photo and video galleries, and audio and text stories.</p>
   </li>
 
   <li data-id="about" data-options="tip_location:right;tip_animation:fade" data-text="Next" data-prev-text="Prev">
-    <p>A brief callout to orient users as to the scope of the site.</p>
+    <p>A brief callout to inform users as to the scope of the site.</p>
   </li>
 
   <li data-id="map" data-options="tip_location:left;tip_animation:fade" data-text="Next" data-prev-text="Prev">
     <h4>Map</h4>
-    <p>The map should be the immediate focus for users on arriving on the site, allowing them to jump in geographically right away.</p>
+    <p>The map should immediately draw the eye of users arriving to the site, allowing them to jump in geographically right away.</p>
   </li>
 
   <li data-id="portals" data-options="tip_location:top;tip_animation:fade" data-text="Next" data-prev-text="Prev">   
