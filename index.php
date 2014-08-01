@@ -3,7 +3,7 @@
     <div class="row">
 
       <div class="large-4 columns">
-        <div class="panel">
+        <div id="about" class="panel">
           <h3>About</h3>
           <div class="row">
             <div class="columns">
@@ -19,14 +19,14 @@
       </div>
 
       <div class="large-8 columns">
-        <div class="panel">
+        <div id="map" class="panel">
           <img src="http://placehold.it/600x400&text=MAP" alt="Map">
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="large-12 columns">
+      <div id="portals" class="large-12 columns">
         <div class="large-4 columns panel">
           <a href="photos.php"><img src="http://placehold.it/400x400&text=IMAGE LINK TO PHOTOS" alt=""></a>
         </div>
@@ -60,8 +60,63 @@
               quis nostrud exercitation ullamco laboris nisi ut. <a href="#">Read more</a> </p>
             </div>        
           </div>
-        </div>
+        </div><ol class="joyride-list" data-joyride>
+  <li data-id="firstStop" data-text="Next" data-options="tip_location: top; prev_button: false">
+    <p>Hello and welcome to the Joyride documentation page.</p>
+  </li>
+  <li data-id="numero1" data-class="custom so-awesome" data-text="Next" data-prev-text="Prev">
+    <h4>Stop #1</h4>
+    <p>You can control all the details for you tour stop. Any valid HTML will work inside of Joyride.</p>
+  </li>
+  <li data-id="numero2" data-button="Next" data-prev-text="Prev" data-options="tip_location:top;tip_animation:fade">
+    <h4>Stop #2</h4>
+    <p>Get the details right by styling Joyride with a custom stylesheet!</p>
+  </li>
+  <li data-button="End" data-prev-text="Prev">
+    <h4>Stop #3</h4>
+    <p>It works as a modal too!</p>
+  </li>
+</ol>
       </div>
     </div> -->
+
+<ol class="joyride-list" data-joyride>
+
+  <li data-text="Next">
+    <p>Welcome to the wireframes. Click next to get started</p>
+  </li>
+
+  <li data-id="header" data-options="tip_location:bottom;tip_animation:fade" data-text="Next" data-prev-text="Prev">
+    <h4>Header</h4>
+    <p>The header will be simple with the title, possibly a logo, and the search bar, encouraging users to focus on the content portals.</p>
+  </li>
+
+  <li data-id="nav" data-options="tip_location:bottom;tip_animation:fade" data-text="Next" data-prev-text="Prev">
+    <h4>Navigation</h4>
+    <p>The main navigation reflects the primary portals to viewing the content: the map, photo and video galleries, and audio and text stories.</p>
+  </li>
+
+  <li data-id="about" data-options="tip_location:right;tip_animation:fade" data-text="Next" data-prev-text="Prev">
+    <p>A brief callout to orient users as to the scope of the site.</p>
+  </li>
+
+  <li data-id="map" data-options="tip_location:left;tip_animation:fade" data-text="Next" data-prev-text="Prev">
+    <h4>Map</h4>
+    <p>The map should be the immediate focus for users on arriving on the site, allowing them to jump in geographically right away.</p>
+  </li>
+
+  <li data-id="portals" data-options="tip_location:top;tip_animation:fade" data-text="Next" data-prev-text="Prev">   
+    <p>The additional portals from the main navigation are echoed here, allowing direct access to the content in a second way.</p>
+  </li>
+
+  <li data-id="footer" data-options="tip_location:top;tip_animation:fade" data-text="Next" data-prev-text="Prev">
+    <h4>Footer</h4>
+    <p>The footer will hold the logos, any needed persistent text, and secondary links.</p>
+  </li>
+
+  <li data-button="End" data-prev-text="Prev">
+    <p>Please explore the rest of the site!</p>
+  </li>
+</ol>
 
 <?php require('footer.html'); ?>
