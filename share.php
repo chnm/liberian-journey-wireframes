@@ -1,6 +1,6 @@
 <?php require('header.html'); ?>
 
-<div class="row">
+<div class="">
     <div id="share" class="large-12 columns">
         <h2>Place to Share Stories</h2>
         <form> 
@@ -38,7 +38,7 @@
                         <div class="large-10 columns"> 
                         <input type="text" id="right-label" placeholder="Inline Text Input"> 
                         </div>
-                    </div>your 
+                    </div>
 
                     <div class="row"> 
                         <div class="large-2 columns"> 
