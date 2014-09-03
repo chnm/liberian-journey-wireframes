@@ -18,23 +18,23 @@
 
 <div class="row">
     <div id="gallery" class="large-12 columns">
-    <ul class="clearing-thumbs" data-clearing>
-        <li style="margin-right:25px"><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="Photo" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
-        <li style="margin-right:25px"><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="VIDEO" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
-        <li><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="VIDEO" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
-    </ul>
-    <ul class="clearing-thumbs" data-clearing>
-        <li style="margin-right:25px"><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="Photo" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
-        <li style="margin-right:25px"><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="VIDEO" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
-        <li><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="VIDEO" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
-    </ul>
-</div>
+      <ul class="clearing-thumbs" data-clearing>
+          <li style="margin-right:25px"><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="Photo" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
+          <li style="margin-right:25px"><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="VIDEO" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
+          <li><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="VIDEO" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
+      </ul>
+      <ul class="clearing-thumbs" data-clearing>
+          <li style="margin-right:25px"><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="Photo" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
+          <li style="margin-right:25px"><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="VIDEO" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
+          <li><a href="http://placehold.it/800x400&text=VIDEO PLAYER"><img alt="VIDEO" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. <a>Link to item</a>" style="clear:left" class="left" src="http://placehold.it/302x302&text=VIDEO"></a></li>
+      </ul>
+    </div>
 
 </div>
 

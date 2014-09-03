@@ -1,6 +1,6 @@
 <?php require("header.html"); ?>
 
-    <div class="row">
+    <div class="">
 
       <div class="large-4 columns">
         <div id="about" class="panel">
@@ -25,13 +25,13 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="">
       <div id="portals" class="large-12 columns">
         <div class="large-4 columns panel">
-          <a href="photos.php"><img src="http://placehold.it/400x400&text=IMAGE LINK TO PHOTOS" alt=""></a>
+          <a href="exhibits.php"><img src="http://placehold.it/400x400&text=IMAGE LINK TO EXHIBITS" alt=""></a>
         </div>
         <div class="large-4 columns panel">
-          <a href="#"><img src="http://placehold.it/400x400&text=IMAGE LINK TO VIDEOS" alt=""></a>
+          <a href="collections.php"><img src="http://placehold.it/400x400&text=IMAGE LINK TO COLLECTIONS" alt=""></a>
         </div>
         <div class="large-4 columns panel">
           <a href="stories.php"><img src="http://placehold.it/400x400&text=IMAGE LINK TO STORIES" alt=""></a>

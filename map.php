@@ -1,6 +1,6 @@
 <?php require("header.html"); ?>
 
-<div class="row">
+<div class="">
 
   <div id="map-info" class="large-3 column right">
   <h3>Using the Map</h3>

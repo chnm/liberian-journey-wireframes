@@ -1,6 +1,6 @@
 <?php require("header.html"); ?>
 
-<div class="row">
+<div class="">
 
   <div id="about-1" class="large-9 column">
     <h2>About this Project</h2>

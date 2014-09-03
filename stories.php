@@ -1,8 +1,8 @@
 <?php require('header.html'); ?>
 
 
-<div class="large-12 row">
-    <div class="large-6 column">
+<div class="large-12 columns">
+    <div class="large-9 column">
     <p>Some text about exploring the stories. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam amet possimus porro, libero facere. </p>
 </div>
 
@@ -16,7 +16,7 @@
 </div>
 </div>
 
-<div id="gallery" class="row items">
+<div id="gallery" class="items columns">
     <div class="large-12 columns panel">
         <div class=" medium-4 columns ">
             <h5><a href="item-1.php">An Audio Story</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -29,15 +29,15 @@
             quis nostrud exercitation ullamco laboris nisi ut. <a href="item-1.php">Read more&rarr;</a> </p>
         </div>
         <div class=" medium-4 columns last">
-            <h5><a href="item-1.php">One More Item</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            <h5><a href="item-1.php">A Photo Story</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut. <a href="item-1.php">Read more&rarr;</a> </p>
         </div>   
     </div>
 </div>
 
-<div class="row items panel">
-    <div class="large-12 columns">
+<div class="items columns">
+    <div class="large-12 columns panel">
         <div class=" medium-4 columns ">
             <h5><a href="item-1.php">A Written Account</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -49,14 +49,14 @@
             quis nostrud exercitation ullamco laboris nisi ut. <a href="item-1.php">Listen&rarr;</a> </p>
         </div>
         <div class=" medium-4 columns last">
-            <h5><a href="item-1.php">One More Item</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            <h5><a href="item-1.php">A Photo Story</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut. <a href="item-1.php">Read more&rarr;</a> </p>
         </div>   
     </div>
 </div>
 
-<div class="row items">
+<div class="items columns">
     <div class="large-12 columns panel">
         <div class=" medium-4 columns ">
             <h5><a href="essay.#">An Audio Story</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -69,7 +69,7 @@
             quis nostrud exercitation ullamco laboris nisi ut. <a href="#">Read more&rarr;</a> </p>
         </div>
         <div class=" medium-4 columns last">
-            <h5><a href="essay.#">An Audio Story</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            <h5><a href="essay.#">A Photo Story</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut. <a href="#">Listen&rarr;</a> </p>
         </div> 
