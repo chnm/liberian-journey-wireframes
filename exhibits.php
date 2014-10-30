@@ -1,37 +1,97 @@
 <?php require('header.html'); ?>
 
-
-<div class="columns items">
-    <div class="large-12 columns panel">
-        <div class=" medium-4 columns ">
-            <h5><a href="item-1.php">Exhibit One</a></h5><img src="http://placehold.it/275x150&text=IMAGE" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.<a href="item-1.php">More&rarr;</a> </p>
-        </div>
-        <div class=" medium-4 columns ">
-            <h5><a href="item-1.php">Exhibit Two</a></h5><img src="http://placehold.it/275x150&text=IMAGE" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.<a href="item-1.php">More&rarr;</a> </p>
-        </div>
-        <div class=" medium-4 columns last">
-            <h5><a href="item-1.php">Exhibit Three</a></h5><img src="http://placehold.it/275x150&text=IMAGE" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.<a href="item-1.php">More&rarr;</a> </p>
-        </div>   
+<header class="">
+  <div id="nav" class="row">
+    <div class="large-7 column">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul id="primary-nav" class="inline-list">
+          <li id="maps" class="first"><a href="map.php">Map</a></li>
+          <li id="exhibits" class="active"><a href="exhibits.php">Exhibits</a></li>
+          <li id="collections"><a href="collections.php">Collections</a></li>
+          <li id="stories"><a href="stories.php">Stories</a></li>
+          <li id="share"><a href="share.php">Share</a></li>
+          <li id="about" class="last "><a href="about.php">About</a></li>
+        </ul>
+      </nav>      
     </div>
-</div>
 
-<div class="columns items">
-    <div class="large-12 columns panel">
-        <div class=" medium-4 columns ">
-            <h5><a href="item-1.php">Exhibit Four</a></h5><img src="http://placehold.it/275x150&text=IMAGE" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.<a href="item-1.php">More&rarr;</a> </p>
-        </div>
-        <div class=" medium-4 columns ">
-            <h5><a href="item-1.php">Exhibit Five</a></h5><img src="http://placehold.it/275x150&text=IMAGE" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.<a href="item-1.php">More&rarr;</a> </p>
-        </div>
-        <div class=" medium-4 columns last">
-            <h5><a href="item-1.php">Exhibit Six</a></h5><img src="http://placehold.it/275x150&text=IMAGE" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.<a href="item-1.php">More&rarr;</a> </p>
-        </div>   
+    <div id="search" class="large-5 column">
+      <input type="text" placeholder="Search the archive...">
+    </div>
+  </div>
+
+
+
+</header>
+
+  <div id="header" class="row">
+    <div class="large-12 column">
+      <h1><a href="index.php">A Liberian Journey </a></h1>
+      <h4><a href="index.php">History, Memory, and the Making of a Nation</a></h4>
+    </div>
+  </div>
+    
+
+
+<div id="content">
+
+<div class="row exhibit-page">
+    <div class="column items">
+        <ul class="small-block-grid-3">
+            <li class="item-entry">
+                <a href="#"><img src="http://placehold.it/400x300&text=IMAGE" alt=""></a>
+                <span class="item-entry-text">
+                    <h5><a href="item-1.php">Exhibit One</a></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor.<a href="item-1.php">More&rarr;</a> </p>
+                </span>
+            </li>
+            <li class="item-entry">
+                <a href="#"><img src="http://placehold.it/400x300&text=IMAGE" alt=""></a>
+                <span class="item-entry-text">
+                    <h5><a href="item-1.php">Exhibit Two</a></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor.<a href="item-1.php">More&rarr;</a> </p>
+                </span>
+            </li>
+            <li class="item-entry last">
+                <a href="#"><img src="http://placehold.it/400x300&text=IMAGE" alt=""></a>
+                <span class="item-entry-text">
+                    <h5><a href="item-1.php">Exhibit Three</a></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor.<a href="item-1.php">More&rarr;</a> </p>
+                    </span>
+            </li>   
+        </ul>
+    </div>
+
+    <div class="column items">
+        <ul class="small-block-grid-3">
+            <li class="item-entry">
+                <a href="#"><img src="http://placehold.it/400x300&text=IMAGE" alt=""></a>
+                <span class="item-entry-text">
+                    <h5><a href="item-1.php">Exhibit Four</a></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor.<a href="item-1.php">More&rarr;</a> </p>
+                </span>
+            </li>
+            <li class="item-entry">
+                <a href="#"><img src="http://placehold.it/400x300&text=IMAGE" alt=""></a>
+                <span class="item-entry-text">
+                    <h5><a href="item-1.php">Exhibit Five</a></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor.<a href="item-1.php">More&rarr;</a> </p>
+                </span>
+            </li>
+            <li class="item-entry last">
+                <a href="#"><img src="http://placehold.it/400x300&text=IMAGE" alt=""></a>
+                <span class="item-entry-text">
+                    <h5><a href="item-1.php">Exhibit Six</a></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor.<a href="item-1.php">More&rarr;</a> </p>
+                    </span>
+            </li>   
+        </ul>
     </div>
 </div>
 

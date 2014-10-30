@@ -1,23 +1,58 @@
 <?php require('header.html'); ?>
 
+<header class="">
+  <div id="nav" class="row">
+    <div class="large-7 column">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul id="primary-nav" class="inline-list">
+          <li id="maps" class="first"><a href="map.php">Map</a></li>
+          <li id="exhibits"><a href="exhibits.php">Exhibits</a></li>
+          <li id="collections"><a href="collections.php">Collections</a></li>
+          <li id="stories" class="active"><a href="stories.php">Stories</a></li>
+          <li id="share"><a href="share.php">Share</a></li>
+          <li id="about" class="last "><a href="about.php">About</a></li>
+        </ul>
+      </nav>      
+    </div>
 
-<div class="large-12 columns">
+    <div id="search" class="large-5 column">
+      <input type="text" placeholder="Search the archive...">
+    </div>
+  </div>
+
+
+
+</header>
+
+  <div id="header" class="row">
+    <div class="large-12 column">
+      <h1><a href="index.php">A Liberian Journey </a></h1>
+      <h4><a href="index.php">History, Memory, and the Making of a Nation</a></h4>
+    </div>
+  </div>
+    
+
+
+<div id="content">
+
+
+<div class="row stories-page">
     <div class="large-9 column">
-    <p>Some text about exploring the stories. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam amet possimus porro, libero facere. </p>
-</div>
+        <p>Some text about exploring the stories. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam amet possimus porro, libero facere. </p>
+    </div>
 
-<div id="filter" class="large-3 column">
-    <a href="#" class="button right" data-dropdown="drop1">Filter Themes</a>
-    <ul id="drop1" class="f-dropdown" data-dropdown-content>
-      <li><a href="#">Theme 1</a></li>
-      <li><a href="#">Theme 2</a></li>
-      <li><a href="#">Theme 3</a></li>
-    </ul>
-</div>
-</div>
+    <div id="filter" class="large-3 column">
+        <a href="#" class="button right" data-dropdown="drop1">Filter Themes</a>
+        <ul id="drop1" class="f-dropdown" data-dropdown-content>
+          <li><a href="#">Theme 1</a></li>
+          <li><a href="#">Theme 2</a></li>
+          <li><a href="#">Theme 3</a></li>
+        </ul>
+    </div>
 
-<div id="gallery" class="items columns">
-    <div class="large-12 columns panel">
+
+<div class="items row">
+    <div class="large-12 columns">
         <div class=" medium-4 columns ">
             <h5><a href="item-1.php">An Audio Story</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -36,8 +71,8 @@
     </div>
 </div>
 
-<div class="items columns">
-    <div class="large-12 columns panel">
+<div class="items row">
+    <div class="large-12 columns">
         <div class=" medium-4 columns ">
             <h5><a href="item-1.php">A Written Account</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -56,8 +91,8 @@
     </div>
 </div>
 
-<div class="items columns">
-    <div class="large-12 columns panel">
+<div class="items row">
+    <div class="large-12 columns">
         <div class=" medium-4 columns ">
             <h5><a href="essay.#">An Audio Story</a></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -74,6 +109,8 @@
             quis nostrud exercitation ullamco laboris nisi ut. <a href="#">Listen&rarr;</a> </p>
         </div> 
     </div>
+</div>
+
 </div>
 
 <ol class="joyride-list" data-joyride>

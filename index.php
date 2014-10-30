@@ -1,46 +1,102 @@
 <?php require("header.html"); ?>
 
-    <div class="">
+<header class="">
+  <div id="nav" class="row">
+    <div class="large-7 column">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul id="primary-nav" class="inline-list">
+          <li id="maps" class="first"><a href="map.php">Map</a></li>
+          <li id="exhibits"><a href="exhibits.php">Exhibits</a></li>
+          <li id="collections"><a href="collections.php">Collections</a></li>
+          <li id="stories"><a href="stories.php">Stories</a></li>
+          <li id="share"><a href="share.php">Share</a></li>
+          <li id="about" class="last "><a href="about.php">About</a></li>
+        </ul>
+      </nav>      
+    </div>
 
-      <div class="large-4 columns">
-        <div id="about" class="panel">
-          <h3>About</h3>
-          <div class="row">
-            <div class="columns">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident. Excepteur sint occaecat cupidatat non proident.</p>
-            </div>
-          </div>
-        </div>
+    <div id="search" class="large-5 column">
+      <input type="text" placeholder="Search the archive...">
+    </div>
+  </div>
+
+
+
+</header>
+
+  <div id="header" class="row">
+    <div class="large-12 column">
+      <h1><a href="index.php">A Liberian Journey </a></h1>
+      <h4><a href="index.php">History, Memory, and the Making of a Nation</a></h4>
+    </div>
+  </div>
+    
+
+
+<div id="content">
+
+    <div class="row">
+      <div id="about" class="large-4 column">
+        <h3>About</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident. Excepteur sint occaecat cupidatat non proident.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident. Excepteur sint occaecat cupidatat non proident. <a href="#">Learn More&rarr;</a> </p>
       </div>
 
-      <div class="large-8 columns">
-        <div id="map" class="panel">
-          <img src="http://placehold.it/600x400&text=MAP" alt="Map">
+      <div class="large-8 column">
+        <div id="home-map">
+          <img src="img/map_03.png" alt="Map">
         </div>
       </div>
     </div>
 
-    <div class="">
-      <div id="portals" class="large-12 columns">
-        <div class="large-4 columns panel">
-          <a href="exhibits.php"><img src="http://placehold.it/400x400&text=IMAGE LINK TO EXHIBITS" alt=""></a>
+    <div class="row">
+      <div id="portals">
+
+        <div class="large-4 column">
+          <div id="exhibits-portal-wrap" class="portal-wrap">
+            <div id="exhibits-portal" class="portal">
+              <div id="exhibits-portal-overlay" class="overlay">
+                <a href="exhibits.php"><span class="overlay-text" id="exhibits-link">exhibits</span></a>
+              </div>
+            </div>    
+          </div>              
         </div>
-        <div class="large-4 columns panel">
-          <a href="collections.php"><img src="http://placehold.it/400x400&text=IMAGE LINK TO COLLECTIONS" alt=""></a>
+
+        <div class="large-4 column">
+          <div id="collections-portal-wrap" class="portal-wrap">
+            <div id="collections-portal" class="portal">
+              <div id="collections-portal-overlay" class="overlay">
+                <a href="collections.php"><span class="overlay-text" id="collections-link">collections</span></a>
+              </div>
+            </div>
+          </div>        
         </div>
-        <div class="large-4 columns panel">
-          <a href="stories.php"><img src="http://placehold.it/400x400&text=IMAGE LINK TO STORIES" alt=""></a>
+
+        <div class="large-4 column">
+          <div id="stories-portal-wrap" class="portal-wrap">
+            <div id="stories-portal" class="portal">
+              <div id="stories-portal-overlay" class="overlay">
+                <a href="stories.php"><span class="overlay-text" id="stories-link">stories</span></a>
+              </div>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
     
 <!--     <div class="row">
-      <div class="large-12 columns">
+      <div class="large-12 column">
         <div class="panel">
           <h3>Featured Items</h3>
           <div class="row">

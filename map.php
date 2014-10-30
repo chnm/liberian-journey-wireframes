@@ -1,6 +1,41 @@
 <?php require("header.html"); ?>
 
-<div class="">
+<header class="">
+  <div id="nav" class="row">
+    <div class="large-7 column">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul id="primary-nav" class="inline-list">
+          <li id="maps" class="first active"><a href="map.php">Map</a></li>
+          <li id="exhibits"><a href="exhibits.php">Exhibits</a></li>
+          <li id="collections"><a href="collections.php">Collections</a></li>
+          <li id="stories"><a href="stories.php">Stories</a></li>
+          <li id="share"><a href="share.php">Share</a></li>
+          <li id="about" class="last "><a href="about.php">About</a></li>
+        </ul>
+      </nav>      
+    </div>
+
+    <div id="search" class="large-5 column">
+      <input type="text" placeholder="Search the archive...">
+    </div>
+  </div>
+
+
+
+</header>
+
+  <div id="header" class="row">
+    <div class="large-12 column">
+      <h1><a href="index.php">A Liberian Journey </a></h1>
+      <h4><a href="index.php">History, Memory, and the Making of a Nation</a></h4>
+    </div>
+  </div>
+    
+
+
+<div id="content">
+
+<div class="row map-page">
 
   <div id="map-info" class="large-3 column right">
   <h3>Using the Map</h3>
@@ -8,7 +43,7 @@
   </div>
 
     <div id="map" class="large-9 column left">
-    <img src="http://placehold.it/1000x600&text=MAP" alt=""/>
+    <img src="img/map_03.png" alt=""/>
   </div>
 
 </div>
